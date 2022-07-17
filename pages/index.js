@@ -1,10 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Button, Input, Result, Table, Image, Select } from "antd";
-import Test from "../components/test";
+import { Button, Table, Image, Select } from "antd";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import Footer from "../components/Footer";
 
